@@ -6,17 +6,17 @@ class ProfilePage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: Colors.green[200],
-        appBar: AppBar(
+      appBar: AppBar(
         centerTitle: true,
         title: Text(
-        'FLUTTER AID',
-        style: TextStyle(
-        fontSize: 30,
-        fontStyle: FontStyle.italic,
-        fontWeight: FontWeight.bold,
-    ),
-    ),
-    ),
+          'FLUTTER AID',
+          style: TextStyle(
+            fontSize: 30,
+            fontStyle: FontStyle.italic,
+            fontWeight: FontWeight.bold,
+          ),
+        ),
+      ),
       body: Center(
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
